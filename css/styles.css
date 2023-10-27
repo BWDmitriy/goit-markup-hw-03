@@ -1,14 +1,16 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--SLATE, #434455);
+    color: #434455;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     background-color: #FFFFFF;
 }
 .header {
-
-    background: var(--WHITE, #FFF);
+    background-color: #FFFFFF;
+}
+ul {
+    list-style: none;
 }
 .logo-header {
     color: #4d5ae5;
@@ -16,7 +18,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -24,18 +26,18 @@ body {
     color: #2e2f42;
 }
 .nav-item {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 .nav-item:hover {
-    color: var(--OCEAN, #404BBF);
+    color: #404BBF;
 }
 .nav-item:active {
-    color: var(--OCEAN, #404BBF);
+    color: #404BBF;
     text-decoration: underline;
 }
 .nav-item:focus {
@@ -44,66 +46,62 @@ body {
 .address-style {
     font-style: normal;
 }
-.address-style:focus {
-    color: #404bbf;
-}
 .address-item {
     text-decoration: none;
-    color: var(--SLATE, #434455);
+    color: #434455;
 }
 .address-item:hover {
-    color: var(--OCEAN, #404BBF);
+    color: #404BBF;
 }
 .address-item:focus {
     color: #404bbf;
 }
 .section-one {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
 }
 .heading-three {
-    color: var(--NAVY-BLUE, #2E2F42);
-    text-align: center;
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 120%;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .heading-two {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 111.111%;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .heading-one {
-    color: var(--WHITE, #FFF);
+    color: #FFFFFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 107.143%;
-    letter-spacing: 1.12px;
+    line-height: 1.071;
+    letter-spacing: 0.02em;
 }
 .button-style {
-    color: var(--WHITE, #FFF);
+    color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 0.64px;
-    background: var(--IRIS, #4D5AE5);
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
     cursor: pointer;
 }
 .button-style:hover {
-    background: var(--OCEAN, #404BBF);
+    background: #404BBF;
 
 }
 .button-style:focus {
     background-color: #404BBF;
 }
 .paragraph {
-    color: var(--SLATE, #434455);
+    color: #434455;
     font-size: 16px;
 }
 .section-three {
@@ -112,13 +110,16 @@ body {
 .section-three-item {
     background-color: #FFFFFF;
 }
+.section-three-item > h3, .section-three-item > p {
+    text-align: center;
+}
 .logo-footer {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -126,8 +127,8 @@ body {
     color: #f4f4fd;
 }
 .footer {
-    background: var(--NAVY-BLUE, #2E2F42);
+    background: #2E2F42;
 }
 .footer-paragraph {
-    color: var(--CLOUD, #F4F4FD);
+    color: #F4F4FD;
 }
