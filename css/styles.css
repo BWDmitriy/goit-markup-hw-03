@@ -6,11 +6,36 @@ body {
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
 }
+.container {
+    flex-basis:1158px;
+    display:flex;
+    flex-direction: column;
+    padding-left:0;
+    padding-right:0; 
+    margin-left:0;
+    margin-right:0;
+}
+main {
+    flex-grow:1
+}
 .header {
     background-color: #FFFFFF;
+    display:flex;
+    justify-content: space-evenly;
+    flex-shrink:0;
+
+    
 }
 ul {
     list-style: none;
+}
+.header-list {
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+}
+.nav {
+    display: flex;
 }
 .logo-header {
     color: #4d5ae5;
@@ -21,6 +46,8 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
 }
 .logo-header-span {
     color: #2e2f42;
@@ -92,6 +119,11 @@ ul {
     letter-spacing: 0.04em;
     background: #4D5AE5;
     cursor: pointer;
+
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 }
 .button-style:hover {
     background: #404BBF;
@@ -104,8 +136,25 @@ ul {
     color: #434455;
     font-size: 16px;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-two-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: nowrap;
+}
 .section-three {
     background-color: #F4F4FD;
+}
+.section-three-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 .section-three-item {
     background-color: #FFFFFF;
@@ -113,6 +162,17 @@ ul {
 .section-three-item > h3, .section-three-item > p {
     text-align: center;
 }
+.section-four-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+    
+}
+.section-four-list > li {
+flex-basis: 33%;
+}
+
 .logo-footer {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
