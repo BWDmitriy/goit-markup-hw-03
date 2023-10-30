@@ -228,12 +228,12 @@ display: flex;
 }
 .section-four-item-text {
     display: flex;
-        padding: 0px 16px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 8px;
-        align-self: stretch;
+    padding: 0px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
 }
 .img-wrapper-four {
     width: 360px;
