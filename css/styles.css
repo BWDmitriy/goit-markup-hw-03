@@ -121,6 +121,7 @@ img {
     max-width: 496px;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:72px;
 }
 .button-style {
     color: #FFFFFF;
@@ -205,15 +206,7 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-/* .img-wrapper-four {
-    width: 360px;
-    flex-basis: 360px;
-}
-.img-wrapper-four img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
+
 .logo-footer {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
